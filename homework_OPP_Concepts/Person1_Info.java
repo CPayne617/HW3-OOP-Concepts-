@@ -2,16 +2,11 @@ package homework_OPP_Concepts;
 
 import java.util.Scanner;
 
-public class Student extends Person {
-
-	public Student(String name, String address, String email, int phone) {
-		super(name, address, email, phone);
-	}
+public class Person1_Info {
 
 	public static void main(String[] args) {
 
 		Person1 c1 = new Person1();
-
 		Scanner scan = new Scanner(System.in);
 
 		System.out.println("enter name");
@@ -21,8 +16,8 @@ public class Student extends Person {
 		scan.nextLine();
 		System.out.println("enter address");
 		String str1 = scan.nextLine();
-		System.out.println();
-		scan.next();
+//		System.out.println();
+//		scan.next();
 		System.out.println("enter e-mail");
 		String str2 = scan.next();
 		scan.close();
